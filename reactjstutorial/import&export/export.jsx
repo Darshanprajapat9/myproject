@@ -10,3 +10,6 @@ function App(){
     <h1>mult of two number mult(40,4) : {mult(40,4)}</h1></>);
 }
 export default App;
+
+
+
