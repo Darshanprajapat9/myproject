@@ -1,0 +1,236 @@
+*{
+  margin:  0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'montserrat',sans-serif;
+}
+.banner{
+  width: 100%;
+  height: 100vh;
+  background: url('../public/img/banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.banner__content{
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+.container{
+  width: 1200px;
+  max-width: 1200px;
+  margin: 0 auto ;
+} 
+.banner__text{
+  width: 500px;
+}
+.banner__text h3{
+  font-size: 50px;
+}
+.banner__text h1{
+  font-size: 80px;
+  line-height: 80px;
+  font-weight: 9001;
+  margin-top:20px ;
+}
+.banner__text p{
+  font-size: 24px;
+  font-weight:400 ;
+}
+.navbar{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 1200px;
+  margin: 0 auto; 
+  
+}
+.navbar__text{
+  display: flex;
+  height: 60px;
+  align-items: center;
+  color: white;
+}
+.logo{
+  display: flex;
+  width:160px;
+  height: auto;
+  font-size: 35px;
+   margin : 0px 15px;
+   padding: 10px;
+   letter-spacing: 2px;
+   cursor: pointer;
+    color: red;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .navbar__ul{
+  text-decoration: 2px solid red;
+  list-style: none;
+  display: flex;
+ float: right;
+ margin-left: 1000px;
+ margin-top: 20px;
+ font-size: 20px;
+  }
+  .navbar__ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
+  }
+  .navbar__ul li a:hover{
+    text-decoration: 2px solid red;
+    color: rgb(212, 15, 15);
+    padding: 0 15px;
+  }
+  .banner__btn{
+    margin: 35px;
+  }
+  .btn{
+    text-decoration: none;
+    border: none;
+    outline: none;
+    color: white;
+   
+    font-weight: 700;
+    border-radius: 70px;
+    font-size: 12px;padding: 20px 40px;
+  }
+  .btn-smart{
+    background-color: orangered;
+    
+  }
+  .about{
+    padding: 80px  0;
+  }
+  .row{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .col-3{
+    width: 25%;
+  }
+  .col-4{
+    width: 33.33%;
+  }
+  .col-6{
+    width: 50%;
+  }
+  .about h3{
+    color:rgba(37,37,37,0.7);
+    font-size: 38px;
+    margin-bottom: 12px;
+    font-weight: 700;
+  }
+  .p-25{
+   padding :45px;
+  }
+  .about h1{
+    font-size: 40px;
+    color:#252525;
+   line-height: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  .about p{
+    font-size: 18px;
+    color: #8b8b8b;
+    font-weight: 300;
+  }
+  .about__btn{
+    margin-top:35px;
+  }
+.about__img{
+  margin-top: 30px;
+  width:100%;
+  height: 300px;
+ overflow: hidden;
+}
+.about__img img{
+  width: 100%;
+}
+.shop{
+  width:100%;
+  background: url("../public/img/naturel.jpg");
+  height: 400px;
+  background-attachment: fixed ;
+}
+.shop__text{
+  padding-top: 200px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  width: 400px;letter-spacing: 2px;
+  justify-content: center;
+  margin:  auto;
+  color: white;
+}
+.shop__text h1{
+  font-size: 50px;
+  line-height: 40px;
+  font-weight: 900;
+  font-style: normal;
+}
+.shop__btn{
+  margin-top: 30px;
+}
+.clients{
+  width: 100%;
+   padding: 25px;
+  background: url('../public/img/ramji.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  background-attachment: fixed;
+}
+.clients{
+  text-align: center;
+}
+.clients h1{
+  font-size: 45px;
+  font-weight: 700;
+}
+.clients p{
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+.prices{
+  width: 100%;
+  padding: 80px 0;
+}
+.price{
+  padding: 20px;
+  text-align: center;
+}
+.price__img{
+  width: 100%;
+  margin-top: 20px;
+
+}
+.price__img img{
+   width: 150px;
+   height: 150px;
+   border-radius: 50px;
+}
+.prices__heading{
+  margin-top: 20px;
+font-size: 25px;
+
+}
+.price__text{
+  margin-top: 35px;
+  color: #888888;
+  font-size: 18px;
+  font-weight: 700;
+}
+.price_rs{
+font-size: 25px;
+margin-top: 15px;
+}
