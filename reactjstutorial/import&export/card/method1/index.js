@@ -1,6 +1,6 @@
 import React from 'react';
 import  ReactDOM  from 'react-dom';
-import Card from './Card'
+import Card from './App';
 
-ReactDOM.render(<Card/>,
+ReactDOM.render(<><App/> <App/>,
 document.getElementById("root"));
