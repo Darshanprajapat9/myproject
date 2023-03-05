@@ -6,3 +6,5 @@ const bioData ={
 
 const jsonData = JSON.stringify(bioData);
 console.log(jsonData);
+
+result=>{"name":"darshan","age":20,"channnel":"darshan technical"}
